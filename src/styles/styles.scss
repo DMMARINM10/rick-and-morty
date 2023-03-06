@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+nav, li, a {
+    text-decoration: none;
+}
+
+.scroll {
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: lightgray;
+        border-radius: 100px;
+    }
+}
